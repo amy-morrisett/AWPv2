@@ -17,6 +17,19 @@ myAnswerDict = {
     'levitation': 'a'
 }
 
+soundPaintingAnswerDict = {
+    'kani': 'a',
+    'aura sight': 'c',
+    'koah': 'b',
+    'teaching': 'c',
+    'psychich powers': 'b',
+    'enti': 'a',
+    'emotion painting': 'c',
+    'image singing': 'c',
+    'freezing powers': 'a',
+    'levitation': 'a'
+}
+
 def chooseRandomElement(list):
     return list[math.floor(random.uniform(0, 1) * len(list))]
 
@@ -47,4 +60,5 @@ def determineGift(answerDict):
     
     return printResult(gift)
 
-print(determineGift(myAnswerDict))
+#print(determineGift(myAnswerDict))
+print(determineGift(soundPaintingAnswerDict))
