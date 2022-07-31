@@ -21,16 +21,13 @@ def putAnswerInDict(selection, giftName):
     print("Not a valid input! Please choose a, b, or c :)")
     return False
 
-#txt = input("Type something to test this out: ")
-
-#print(f"Is this what you just said? {txt}")
 while True:
     kaniAnswer = input("1. What is your success rate of keeping houseplants alive?\na. Basically every plant I've ever owned has died (pick this one as well if you haven't ever owned a houseplant)\nb. I'm fairly good, but have had my fair share of dead plants\nc. I'm excellent at keeping them alive and rarely have them die!\n")
     if putAnswerInDict(kaniAnswer, 'kani'):
         break
 
 while True:
-    auraSightAnswer = input("2. How good are you at sensing someone's ~vibes~?\na. Pretty horrible; I always have trouble telling how others are feeling\nb. I'd say I'm a fairly good judge of someone else's emotions/nc. The best -- I have a high success rate of sensing others' feelings\n")
+    auraSightAnswer = input("2. How good are you at sensing someone's ~vibes~?\na. Pretty horrible; I always have trouble telling how others are feeling\nb. I'd say I'm a fairly good judge of someone else's emotions\nc. The best -- I have a high success rate of sensing others' feelings\n")
     if putAnswerInDict(auraSightAnswer, 'aura sight'):
         break
 

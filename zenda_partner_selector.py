@@ -47,8 +47,4 @@ def classProjectPartner(gift, studentDict):
                 randomStudent = chooseRandomElement(partnerList)
                 return printPartner(randomStudent)
 
-#print(classProjectPartner('kani', auroraAcademyDict))
-#print(classProjectPartner('aura sight', auroraAcademyDict))
-#print(classProjectPartner('emotion painting', auroraAcademyDict))
-
 print(classProjectPartner(userGift, auroraAcademyDict))
